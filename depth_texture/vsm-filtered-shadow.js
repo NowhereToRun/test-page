@@ -33,7 +33,8 @@ and how they are implemented on the GPU
       } catch (error1) {
         error = error1;
         console.log(error);
-        return;
+        sender.getData('error', this.id);
+        return this.cb();
       }
       cubeGeom = gl.drawable(meshes.cube);
       planeGeom = gl.drawable(meshes.plane(50));

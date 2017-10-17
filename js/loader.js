@@ -237,7 +237,7 @@
       this.testList.push(new ClippingTest());
       this.testList.push(new BubbleTest());
       this.testList.push(new CompressedTextureTest());
-      this.testList.push(new ShadowTest());
+      this.testList.push(new ShadowTest());   // 这个华为上有bug
       this.asyncTests = [];
       //language detection is done by another js file
       //this.asyncTests.push(new LanguageDector());
