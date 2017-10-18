@@ -118,7 +118,6 @@
           if (gl)
             break;
         }
-        alert(gl);
         testCanvas.remove();
         if (!gl) {
           return 0
